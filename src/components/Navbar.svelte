@@ -1,4 +1,4 @@
-<nav class="sticky top-0 bg-slate-950 text-white px-10 py-4">
+<nav class="sticky top-0 bg-black text-white px-10 py-4">
     <div class="flex justify-between items-center max-container">
         <div class="flex items-center">
             <a href="/" class="mr-5">
@@ -40,7 +40,7 @@
             </svg>  
         </button>
     </div>
-    
+
     {#if showMenu}
         <div class="md:hidden flex flex-col">
             <a href='/'>Works</a>

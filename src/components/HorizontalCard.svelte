@@ -1,15 +1,13 @@
 <script>
-    // export const src = '../images/sample-1.jpg';
-    export const heading = 'Projects I Worked On';
-    export const paragraph = 'Here goes the description of the project';
+    export let img = 'src/images/sample-1.jpg';
+    export let heading = 'Projects I Worked On';
+    export let paragraph = 'Here goes the description of the project';
 </script>
 
-<div class="container mx-auto px-4">
-    <div class="flex items-center justify-between">
-        <div class="w-1/2">
-            <!-- <img src={src} alt="Project Thumbnail"> -->
-        </div>
-        <div class="w-1/2">
+<div class="container mx-auto border-black border h-48 w-full">
+    <div class="grid grid-cols-2 h-full">
+        <div class=" bg-cover bg-center" style="background-image: url({img});"></div>
+        <div class="flex flex-col justify-end px-4 py-4 bg-white">
             <h3>{heading}</h3>
             <p>{paragraph}</p>
         </div>
