@@ -7,7 +7,7 @@
         <h2 class="underline decoration-[#00205b]">Featured Stories</h2>
     </div>
     
-    <div class="mx-auto px-10 my-4">
+    <div class="container mx-auto px-10 my-4">
         <div class="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <a href="/"><VerticalCard /></a>
             <a href="/"><VerticalCard img='src/images/sample-2.jpg'/></a>
