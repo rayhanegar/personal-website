@@ -18,14 +18,14 @@
                    <li>
                     <div>
                         <p class="font-bold text-sm">Malang, Indonesia</p>
-                        <p class="text-sm">{localTime}, UTC+7</p>
+                        <p class="text-sm">{localTime} (UTC+7)</p>
                     </div>
                </li> 
                 </ul>
             </div>    
         </div>
         <div>
-            <ul class="hidden md:flex list-none space-x-10 group-hover:underline">
+            <ul class="right-nav hidden md:flex list-none space-x-10 group-hover:underline">
                 <li><a href='/'>Works</a></li>
                 <li><a href='/'>Stories</a></li>
                 <li><a href='/'>Experiences</a></li>
@@ -53,17 +53,35 @@
 </nav>
 
 <script>
-    let date = new Date();
-    let hours = date.getHours();
-    let minutes = date.getMinutes().toString().padStart(2, "0");
-    let localTime = `${hours}:${minutes}`;
+    import { onMount } from 'svelte';
+
+    let localTime = getLocalTime();
 
     let showMenu = false;
+
+    // Update localTime every minute
+    onMount(() => {
+    const updateTime = () => {
+        localTime = getLocalTime();
+    };
+
+    const intervalId = setInterval(updateTime, 60000);
+
+    // Clear the interval when the component is destroyed
+    return () => clearInterval(intervalId);
+    });
+
+    function getLocalTime() {
+    const date = new Date();
+    const hours = date.getHours();
+    const minutes = date.getMinutes().toString().padStart(2, '0');
+    return `${hours}:${minutes}`;
+    }
 
 </script>
 
 <style>
-    li::after {
+    .right-nav li::after {
         content: '';
         width: 0%;
         height: 3px;
@@ -72,7 +90,7 @@
         margin: auto;
         transition: .3s;
     }
-    li:hover::after {
+    .right-nav li:hover::after {
         content: '';
         width: 100%;
         height: 3px;
