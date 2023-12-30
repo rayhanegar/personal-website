@@ -16,8 +16,10 @@
     </div>
     
     <div class="container px-10 flex justify-around items-center my-10">
-        <button class="rounded-full bg-[#fa5000] text-white px-4 py-2">
-            <p>Read all stories</p>
-        </button>
+        <a href="/stories">
+            <button class="rounded-full bg-[#fa5000] text-white px-4 py-2">
+                <p>Read all stories</p>
+            </button>
+        </a>
     </div>
 </div>
