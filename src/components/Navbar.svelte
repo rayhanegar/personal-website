@@ -1,4 +1,4 @@
-<nav class="sticky top-0 bg-black text-white px-10 py-4">
+<nav class="sticky z-10 top-0 bg-black text-white px-10 py-4">
     <div class="flex justify-between items-center max-container">
         <div class="flex items-center">
             <a href="/" class="mr-5">
@@ -26,11 +26,10 @@
         </div>
         <div>
             <ul class="right-nav hidden md:flex list-none space-x-10 group-hover:underline">
-                <li><a href='/'>Works</a></li>
-                <li><a href='/'>Stories</a></li>
-                <li><a href='/'>Experiences</a></li>
-                <li><a href='/'>About</a></li>
-                <li><a href='/'>Contact</a></li>
+                <li><a href='/works'>Works</a></li>
+                <li><a href='/stories'>Stories</a></li>
+                <li><a href='/experiences'>Experiences</a></li>
+                <li><a href='/about'>About</a></li>
             </ul>
         </div>
 
@@ -43,11 +42,11 @@
 
     {#if showMenu}
         <div class="md:hidden flex flex-col">
-            <a href='/'>Works</a>
-            <a href='/'>Stories</a>
-            <a href='/'>Experiences</a>
-            <a href='/'>About</a>
-            <a href='/'>Contact</a>
+            <a href='/works'>Works</a>
+            <a href='/stories'>Stories</a>
+            <a href='/experiences'>Experiences</a>
+            <a href='/about'>About</a>
+            <a href='/contact'>Contact</a>
         </div>
     {/if}
 </nav>

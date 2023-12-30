@@ -9,9 +9,9 @@
     
     <div class="container mx-auto px-10 my-4">
         <div class="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            <a href="/"><VerticalCard /></a>
-            <a href="/"><VerticalCard img='src/images/sample-2.jpg'/></a>
-            <a href="/"><VerticalCard img='src/images/sample-3.jpg'/></a>
+            <VerticalCard />
+            <VerticalCard img='src/images/sample-2.jpg'/>
+            <VerticalCard img='src/images/sample-3.jpg'/>
         </div>
     </div>
     

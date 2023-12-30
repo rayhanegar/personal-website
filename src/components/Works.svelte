@@ -9,10 +9,10 @@
     
     <div class="mx-auto px-10 my-4">
         <div class="container grid grid-cols-1 md:grid-cols-2 gap-4 bg-white">
-            <a href="/"><HorizontalCard /></a>
-            <a href="/"><HorizontalCard img='src/images/sample-2.jpg'/></a>
-            <a href="/"><HorizontalCard img='src/images/sample-3.jpg'/></a>
-            <a href="/"><HorizontalCard img='src/images/sample-4.jpg'/></a>
+            <HorizontalCard />
+            <HorizontalCard img='src/images/sample-2.jpg'/>
+            <HorizontalCard img='src/images/sample-3.jpg'/>
+            <HorizontalCard img='src/images/sample-4.jpg'/>
         </div>
     </div>
     
