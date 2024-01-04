@@ -1,4 +1,5 @@
 <script>
+    import ExperienceCard from "../../components/ExperienceCard.svelte";
     import Footer from "../../components/Footer.svelte";
 </script>
 
@@ -6,6 +7,9 @@
     <div class="container mx-auto py-4 flex items-center border-b border-black">
         <h2>Experiences</h2>
     </div>
+    <ExperienceCard/>
+    <ExperienceCard/>
+    <ExperienceCard/>
 </div>
 
 <Footer />
