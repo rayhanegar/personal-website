@@ -12,28 +12,28 @@
 
             <HorizontalCard
             href='/works' 
-            img='src/images/thumbnails/sleeveup-thumbnail.png'
+            img="sleeveup-thumbnail.png"
             tag='website'
             heading='SleeveUp!'
             paragraph='Internship, job placement and event registration portals for fresh graduate.'/>
             
             <HorizontalCard
             href='/works' 
-            img='src/images/thumbnails/jagawana-thumbnail.png'
+            img="jagawana-thumbnail.png"
             tag='WSN'
             heading='Jagawana'
             paragraph='IoT-based Wireless Sensor Network for forest fire early warning system.'/>
             
             <HorizontalCard
             href='/works' 
-            img='src/images/thumbnails/pocket-hg-thumbnail.png'
+            img="pocket-hg-thumbnail.png"
             tag='UX design'
             heading='POCKET-Hg'
             paragraph='Integrated, portable mercury compound detection kit.'/>
             
             <HorizontalCard
             href='/works' 
-            img='src/images/thumbnails/drawer-thumbnail.png'
+            img="drawer-thumbnail.png"
             tag='UX design'
             heading='Drawer Website'
             paragraph='Social and commercial platform for local digital artists.'/>

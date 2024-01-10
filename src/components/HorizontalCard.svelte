@@ -1,5 +1,5 @@
 <script>
-    export let img = './images/sample-1.jpg';
+    export let img = "sample-3.jpg";
     export let tag = 'tag/category';
     export let heading = 'Projects I Worked On';
     export let paragraph = 'Here goes the description of the project';

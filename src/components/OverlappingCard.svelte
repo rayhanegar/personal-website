@@ -1,6 +1,6 @@
 <script>
     export let href = "/stories";
-    export let img = "./images/sample-2.jpg";
+    export let img = "sample-2.jpg";
     export let heading = "Here Goes The Title of Your Story";
     export let paragraph = "Here goes a sentence or two about the story.";
     export let date = "DD/MM/YY";

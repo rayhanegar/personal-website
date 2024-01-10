@@ -30,7 +30,7 @@
         href="https://icn.id"
         position="Core Team"
         years="2024-present"
-        institution="Indonesia Research and Education Network (IDREN)"
+        institution="Information-Centric Network (ICN) Laboratory"
         description="Batch 2024 core team members for Information-Centric Network Laboratory, Faculty of Computer Science."
         />
         <ExperienceCard 
