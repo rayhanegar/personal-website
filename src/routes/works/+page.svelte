@@ -23,56 +23,56 @@
     <div class="grid grid-cols-1 md:grid-cols-3 py-4 gap-8 mt-10">
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/sleeveup-thumbnail.png'
+            img='../../images/thumbnails/sleeveup-thumbnail.png'
             tag='Website'
             heading='SleeveUp!'
             paragraph='Internship, job placement and event registration portals for fresh graduates.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/jagawana-thumbnail.png'
+            img='../../images/thumbnails/jagawana-thumbnail.png'
             tag='WSN'
             heading='Jagawana'
             paragraph='IoT-based Wireless Sensor Network for forest fire early warning system.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/pocket-hg-thumbnail.png'
+            img='../../images/thumbnails/pocket-hg-thumbnail.png'
             tag='UX design'
             heading='POCKET-Hg'
             paragraph='Integrated, portable mercury compound detection kit.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/drawer-thumbnail.png'
+            img='../../images/thumbnails/drawer-thumbnail.png'
             tag='UX design'
             heading='Drawer Website'
             paragraph='Social and commercial platform for local digital artists.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/insanmagz-25-thumbnail.png'
+            img='../../images/thumbnails/insanmagz-25-thumbnail.png'
             tag='Editorial Design'
             heading='InsanMagz issue no. 25'
             paragraph='"Earth-II: After Hours", concerning climate and environmental issues.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/insanmagz-24-thumbnail.png'
+            img='../../images/thumbnails/insanmagz-24-thumbnail.png'
             tag='Editorial Design'
             heading='InsanMagz issue no. 24'
             paragraph='"Mask is The New Black", with primary focus on the COVID-19 pandemic.'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/artsantara-story-thumbnail.png'
+            img='../../images/thumbnails/artsantara-story-thumbnail.png'
             tag='Social Media Design'
             heading='Artsantara Socials'
             paragraph='Social media design for Artsantara 2021 by Osmada'
         />
         <WorksCard 
             href='/works' 
-            img='src/images/thumbnails/artsantara-poster-thumbnail.png'
+            img='../../images/thumbnails/artsantara-poster-thumbnail.png'
             tag='Poster Design'
             heading='R!SE for Artsantara'
             paragraph='Poster design for Artsantara 2021 campaign, done in collaboration.'

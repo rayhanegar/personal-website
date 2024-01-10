@@ -10,8 +10,8 @@
     <div class="container mx-auto px-10 my-4">
         <div class="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
             <VerticalCard />
-            <VerticalCard img='src/images/sample-2.jpg'/>
-            <VerticalCard img='src/images/sample-3.jpg'/>
+            <VerticalCard img='./images/sample-2.jpg'/>
+            <VerticalCard img='./images/sample-3.jpg'/>
         </div>
     </div>
     
