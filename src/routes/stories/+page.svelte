@@ -24,7 +24,6 @@
                 - Sylvie, that one Loki variant
             </p>
         </div>
-        
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-8 mt-10">
         <OverlappingCard />

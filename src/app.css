@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 h1 {
-    font-family: 'Space Grotesk';
+    font-family: 'Epilogue';
     font-size: 64px;
     font-weight: 700;
 }
 
 h2 {
     font-size: 48px;
-    font-family: 'Space Grotesk';
-    font-weight: 700;
+    font-family: 'Epilogue';
+    font-weight: 600;
 }
 
 h3 {
     font-size: 24px;
-    font-family: 'Space Grotesk';
-    font-weight: 700;
+    font-family: 'Epilogue';
+    font-weight: 600;
 }
 
 p {

@@ -6,8 +6,8 @@
     export let href ='/works';
 </script>
 
-<a {href} class="group transition-all ease-in-out duration-300 bg-white hover:bg-black hover:text-white">
-    <div class="container mx-auto border-black border h-96 w-full">
+<a {href} class="group">
+    <div class="transition-all ease-in-out duration-300 container mx-auto shadow-sm border-black/50 border h-96 w-full rounded-sm overflow-hidden group-hover:bg-black group-hover:text-white group-hover:shadow-md">
         <div class="grid grid-cols-1 grid-rows-2 h-full overflow-clip">
             <div class="transition-all ease-in-out duration-300 flex bg-cover bg-center group-hover:scale-110" style="background-image: url({img});"></div>
             <div class="flex flex-col justify-between mt-4 px-4 py-4 ">
