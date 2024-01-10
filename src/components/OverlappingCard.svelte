@@ -12,7 +12,7 @@
         <a {href}>
             <div class="transition-all ease-in-out duration-300 absolute bottom-0 right-0 w-1/2 z-[1] flex flex-col item bg-white text-black hover:bg-black hover:text-white border-black border hover:border-b-[#fa5000] hover:border-b-8 px-4 py-4 rounded-sm">
                 <h3>{heading}</h3>
-                <p><span class="text-inherit/50">{date}</span></p>
+                <p><span class="text-inherit/70">{date}</span></p>
                 <br>
                 <p>{paragraph}</p>
             </div>

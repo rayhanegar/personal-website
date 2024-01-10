@@ -26,9 +26,27 @@
         </div>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-8 mt-10">
-        <OverlappingCard/>
-        <OverlappingCard/>
-        <OverlappingCard/>
+        <OverlappingCard
+            href="/stories"
+            img="minamata-blog-thumbnail.jpg"
+            heading="Minamata and Resiliency"
+            paragraph="How sense of community, collectiveness and nature-first approach turned the tide."
+            date="Jan. 11, 24"
+        />
+        <OverlappingCard
+            href="/stories"
+            img="tokyo-blog-thumbnail.jpg"
+            date="Jan. 11, 24"
+            heading="Through the Alleys of Tokyo"
+            paragraph="Not so random summer night (and day) strolls in Tokyo."
+        />
+        <OverlappingCard
+            href="/stories"
+            img="pantai-blog-thumbnail.jpg"
+            date="Jan. 11, 2024"
+            heading="South-coast Fever"
+            paragraph="Experimenting with film looks on Lightroom, and other."
+        />
     </div>
 </div>
 

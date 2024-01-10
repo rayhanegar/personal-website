@@ -9,9 +9,25 @@
     
     <div class="container mx-auto px-10 my-4">
         <div class="container grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            <VerticalCard />
-            <VerticalCard img="sample-1.jpg"/>
-            <VerticalCard img="sample-4.jpg"/>
+            <VerticalCard 
+            href="/stories"
+            img="minamata-blog-thumbnail.jpg"
+            heading="Minamata and Resiliency"
+            paragraph="How sense of community, collectiveness and nature-first approach turned the tide."
+            date="Jan. 11, 24" />
+            <VerticalCard 
+            href="/stories"
+            img="tokyo-blog-thumbnail.jpg"
+            date="Jan. 11, 24"
+            heading="Through the Alleys of Tokyo"
+            paragraph="Not so random summer night (and day) strolls in Tokyo."
+            />
+            <VerticalCard 
+            href="/stories"
+            img="pantai-blog-thumbnail.jpg"
+            date="Jan. 11, 2024"
+            heading="South-coast Fever"
+            paragraph="Experimenting with film looks on Lightroom, and other."/>
         </div>
     </div>
     
