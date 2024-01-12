@@ -29,7 +29,7 @@
         <OverlappingCard
             href="/stories"
             img="minamata-blog-thumbnail.jpg"
-            heading="Minamata and Resiliency"
+            heading="Fostering Community Resiliency"
             paragraph="How sense of community, collectiveness and nature-first approach turned the tide."
             date="Jan. 11, 24"
         />
@@ -37,7 +37,7 @@
             href="/stories"
             img="tokyo-blog-thumbnail.jpg"
             date="Jan. 11, 24"
-            heading="Through the Alleys of Tokyo"
+            heading="Through the Maze of Tokyo"
             paragraph="Not so random summer night (and day) strolls in Tokyo."
         />
         <OverlappingCard

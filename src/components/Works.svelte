@@ -7,7 +7,7 @@
         <h2 class="underline decoration-[#00205b]">Latest Works</h2>
     </div>
     
-    <div class="mx-auto px-10 my-4">
+    <div class="mx-auto px-10 my-2">
         <div class="container grid grid-cols-1 md:grid-cols-2 gap-4 bg-white">
 
             <HorizontalCard
@@ -41,10 +41,13 @@
         </div>
     </div>
     
-    <div class="container px-10 flex justify-around items-center my-10">
+    <div class="container px-10 flex justify-around items-center my-8">
         <a href="/works">
-            <button class="rounded-full bg-[#fa5000] text-white px-4 py-2">
+            <button class="transition-all ease-in-out duration-300 rounded-md bg-black shadow-md text-white px-4 py-2 flex gap-4 hover:scale-105">
                 <p>View all works</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
             </button>
         </a>
     </div>
