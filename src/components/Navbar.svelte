@@ -41,12 +41,11 @@
     </div>
 
     {#if showMenu}
-        <div class="md:hidden flex flex-col">
+        <div class="md:hidden flex flex-col gap-4 py-4">
             <a href='/works'>Works</a>
             <a href='/stories'>Stories</a>
             <a href='/experiences'>Experiences</a>
             <a href='/about'>About</a>
-            <a href='/contact'>Contact</a>
         </div>
     {/if}
 </nav>

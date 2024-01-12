@@ -16,7 +16,7 @@
         </div>
         <div class="container mx-auto flex flex-col gap-4">
             <p>
-                As the only journey is the one within, true understanding and discovery oftem come from 
+                As the only journey is the one within, true understanding and discovery often come from 
                 stepping outside and immersing ourselves. For what I believe is true, I emphasize myself on the 
                 importance of <span class="font-bold">engaging in pursuits that spark</span> my interest and finding personal growth within them.
                 <br>
