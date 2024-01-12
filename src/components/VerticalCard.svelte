@@ -7,7 +7,7 @@
 </script>
 
 <a {href} class="group transition-all ease-in-out duration-300 bg-white hover:bg-black hover:text-white">
-    <div class="container mx-auto border-black border h-96 w-full overflow-clip">
+    <div class="container mx-auto border-black border h-96 w-full overflow-hidden">
         <div class="grid grid-cols-1 grid-rows-2 h-full">
             <div class="transition-all ease-in-out duration-300 flex bg-cover bg-center group-hover:scale-110" style="background-image: url({img});"></div>
             <div class="flex flex-col justify-end px-4 py-4 ">

@@ -29,15 +29,15 @@
     </div>
     <div class="my-8">
         <ExperienceCard 
-        href="https://icn.id"
+        href="https://www.instagram.com/labicnfilkom"
         position="Core Team"
         years="2024-present"
         institution="Information-Centric Network (ICN) Laboratory"
         description="Batch 2024 core team members for Information-Centric Network Laboratory, Faculty of Computer Science."
         />
         <ExperienceCard 
-        href="https://idren.ub.ac.id"
-        position="Routing Technical Writer"
+        href="https://idren.id"
+        position="Technical Writer"
         years="2023"
         institution="Indonesia Research and Education Network (IDREN)"
         description="Develop technical documentation for router, switch as well as routing configuration for 100Gbps closed research network."
@@ -71,7 +71,7 @@
         description="Responsible in conducting UX researches and to design cohesive final product in accordance with Google Design Sprint."
         />
         <ExperienceCard 
-        href="https://instagram.com/inaugurasi_filkom"
+        href="https://www.instagram.com/inaugurasi_filkom"
         position="Creative Division Member"
         years="2022"
         institution="Periscope - Inaugurasi FILKOM UB"

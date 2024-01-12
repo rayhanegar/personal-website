@@ -1,5 +1,5 @@
 <div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-t from-[#00205b] via-black via-40% to-black text-white">
-    <div class="container mx-auto px-10 h-full">
+    <div class="container mx-auto px-10 py-8 h-full">
         <div class="flex flex-col items-center divide-y-0 h-full gap-4">
             <div class="flex flex-col w-full text-wrap">
                 <h1 class="font-medium" style="font-family: 'Epilogue'">A <span style="font-family: 'Playfair Display'" class="italic font-light text-7xl">steadfast</span> <br> C.S. student,</h1>
