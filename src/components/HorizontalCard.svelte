@@ -19,7 +19,7 @@
                 <div>
                     <p class="text-inherit/50 " style="font-family: 'Space Grotesk'">{tag}</p>
                     <h3>{heading}</h3>
-                    <p>{paragraph}</p>
+                    <p class="hidden md:block">{paragraph}</p>
                 </div>                  
             </div>
         </div>
