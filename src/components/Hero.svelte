@@ -1,16 +1,10 @@
-<div class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-t from-[#00205b] via-black via-40% to-black text-white">
-    <div class="container mx-auto px-10 py-8 h-full">
-        <div class="flex flex-col items-center divide-y-0 h-full gap-4">
-            <div class="flex flex-col w-full text-wrap">
-                <h1 class="font-medium" style="font-family: 'Epilogue'">A <span style="font-family: 'Playfair Display'" class="italic font-light text-7xl">steadfast</span> <br> C.S. student,</h1>
-                <p>Hi, I'm Egar, a second-year computer science student with major in <br>
-                    Informatics Engineering from Brawijaya University, Indonesia.</p>
-            </div>
-            <div class="flex flex-col w-full justify-end text-wrap">
-                <h1 class="font-medium text-end" style="font-family: 'Epilogue';"> a <span class="underline decoration-[#fe5000] decoration-6">future expert</span><br>in the making.</h1>
-                <p class="text-end">Having a fond interest in the field of computer network, design <br>
-                    and environmental study, I’m ready to contribute to society for a cause.</p>
-            </div>
-        </div>
+<div class="h-screen grid grid-cols-1 md:grid-cols-2 bg-black text-white">
+    <div class="h-full px-10 py-8 flex flex-col justify-start bg-cover bg-bottom" style="background-image: url('hero-left.jpg');">
+        <h1 class="font-medium">
+            A <span style="font-family: 'Playfair Display'" class="italic font-light text-7xl">steadfast</span> <br> C.S. student,
+        </h1>
+    </div>
+    <div class="h-full px-10 py-8 flex flex-col justify-end bg-cover bg-bottom" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),url('hero-right.jpg');">
+        <h1 class="font-medium text-end">a <span class="underline decoration-[#fe5000] decoration-6">future expert</span><br>in the making</h1>
     </div>
 </div>

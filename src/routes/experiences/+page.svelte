@@ -5,25 +5,20 @@
 
 <div class="min-h-screen w-full flex flex-col px-10 py-4 bg-white text-black">
     <div class="container mx-auto py-4 flex items-center border-b border-black">
-        <h2>Experiences</h2>
+        <h1>Experiences</h1>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-4 mt-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-4 mt-4 mb-8 md:mt-8 md:mb-16">
         <div class="container mx-auto flex flex-col">
             <h3>
-                "<span class="italic">Carpe diem</span>. Seize the day, boys. <br>
-                <span class="underline decoration-[#fa5000] ">Make your lives extraordinary</span>."
+                "<span class="italic">Carpe diem</span>.
+                <span class="underline decoration-[#fa5000] ">Seize the day,</span> boys!"
             </h3>
         </div>
-        <div class="container mx-auto flex flex-col gap-4">
+        <div class="container mx-auto flex flex-col gap-4 text-justify">
             <p>
                 As the only journey is the one within, true understanding and discovery often come from 
                 stepping outside and immersing ourselves. For what I believe is true, I emphasize myself on the 
-                importance of <span class="font-bold">engaging in pursuits that spark</span> my interest and finding personal growth within them.
-                <br>
-                <br>
-                <br>
-                <span class="font-bold">"Out beyond ideas of wrongdoing and rightdoing, there is a field. I'll meet you there."</span> <br>
-                - Rumi
+                importance of engaging in pursuits that spark my interest and finding personal growth within them.
             </p>
         </div>
     </div>

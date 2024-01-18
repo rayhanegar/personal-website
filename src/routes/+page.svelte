@@ -6,8 +6,11 @@
     import Connect from '../components/Connect.svelte';
 </script>
 
-<Hero />
-<Stance />
-<Works />
-<Stories />
-<Connect />
+<div class="bg-black">
+    <Hero />
+    <Stance />
+    <Works />
+    <Stories />
+    <Connect />
+</div>
+

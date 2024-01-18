@@ -5,7 +5,7 @@
 
 <div class="min-h-screen w-full flex flex-col px-10 py-4 bg-white text-black">
     <div class="container mx-auto py-4 flex items-center border-b border-black">
-        <h2>Stories</h2>
+        <h1>Egar's Chronicles</h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-4 mt-4">
         <div class="container mx-auto flex flex-col">

@@ -7,7 +7,7 @@
 </script>
 
 <a {href} class="group">
-    <div class="transition-all ease-in-out duration-300 container mx-auto rounded-md shadow-md border-black/50 border h-96 w-full overflow-hidden group-hover:bg-black group-hover:text-white group-hover:shadow-md">
+    <div class="transition-all ease-in-out duration-300 container mx-auto border-black/50 border h-96 w-full overflow-hidden group-hover:bg-black group-hover:text-white group-hover:shadow-md">
         <div class="grid grid-cols-1 grid-rows-2 h-full overflow-clip">
             <div class="transition-all ease-in-out duration-300 flex bg-cover bg-center group-hover:scale-110" style="background-image: url({img});"></div>
             <div class="flex flex-col justify-between mt-4 px-4 py-4 ">
@@ -18,7 +18,7 @@
                 </div>
                 <div>
                     <p class="text-inherit/50 " style="font-family: 'Space Grotesk'">{tag}</p>
-                    <h3>{heading}</h3>
+                    <h4>{heading}</h4>
                     <p>{paragraph}</p>
                 </div>                
             </div>

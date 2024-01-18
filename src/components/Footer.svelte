@@ -4,9 +4,9 @@
     const email = "mailto:rayhanegar.sn@gmail.com?subject=Inquiry%20from%20Website";
 </script>
 
-<div class="bg-gradient-to-b from-[#00205b] via-black via-40% to-black px-10 py-10 text-white grid grid-cols-2">
+<div class="bg-black px-10 py-10 text-white grid grid-cols-2">
     <div class="flex items-center justify-start">
-        <p>Made with 🙏</p>
+        <p class="font-bold">Rayhan Egar, 2024</p>
     </div>
     <div class="flex justify-end items-center space-x-5 px-10">
         <a href={behance}>

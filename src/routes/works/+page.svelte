@@ -5,12 +5,12 @@
 
 <div class="min-h-screen w-full flex flex-col px-10 py-4 bg-white text-black">
     <div class="container mx-auto py-4 flex items-center border-b border-black">
-        <h2>Works</h2>
+        <h1>The Works</h1>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap- mt-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-4 mt-4">
         <div class="container mx-auto flex">
             <h3>
-                "To work is to tend, to nurture and <span class="underline decoration-[#fa5000]">to grow</span>"
+                "To work is to nurture and <span class="underline decoration-[#fa5000]">to grow</span>"
             </h3>
         </div>
         <div class="container mx-auto flex">
@@ -29,7 +29,7 @@
             paragraph='Internship, job placement and event registration portals for fresh graduates.'
         />
         <WorksCard 
-            href='/works' 
+            href='/works/' 
             img="jagawana-thumbnail.png"
             tag='WSN'
             heading='Jagawana'
@@ -71,7 +71,7 @@
             paragraph='Social media design for Artsantara 2021 by Osmada'
         />
         <WorksCard 
-            href='/works' 
+            href='/works/riseartsantara' 
             img="artsantara-poster-thumbnail.png"
             tag='Poster Design'
             heading='R!SE for Artsantara'

@@ -3,24 +3,63 @@
 @tailwind utilities;
 
 h1 {
-    font-family: 'Epilogue';
-    font-size: 64px;
-    font-weight: 700;
+    font-family: 'Space Grotesk';
+    font-size: 56px;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 48px;
-    font-family: 'Epilogue';
+    font-family: 'Space Grotesk';
     font-weight: 600;
 }
 
 h3 {
+    font-size: 40px;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+}
+
+h4 {
     font-size: 24px;
-    font-family: 'Epilogue';
-    font-weight: 600;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
 }
 
 p {
     font-family: 'Plus Jakarta Sans';
     font-size: 16px;
 }
+
+@media (min-width: 768px) {
+    h1 {
+        font-family: 'Space Grotesk';
+        font-size: 64px;
+        font-weight: 600;
+    }
+    
+    h2 {
+        font-size: 48px;
+        font-family: 'Space Grotesk';
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 32px;
+        font-family: 'Space Grotesk';
+        font-weight: 500;
+    }
+    
+    h4 {
+        font-size: 24px;
+        font-family: 'Space Grotesk';
+        font-weight: 700;
+    }
+    
+    p {
+        font-family: 'Plus Jakarta Sans';
+        font-size: 16px;
+    }
+}
+
+

@@ -4,7 +4,7 @@
     const email = "mailto:rayhanegar.sn@gmail.com?subject=Inquiry%20from%20Website";
 </script>
 
-<div class="bg-gradient-to-b from-[#00205b] via-black via-40% to-black px-10 py-20 text-white">
+<div class="bg-cover bg-bottom py-10 text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url('hero-park.jpg');">
     <div class="grid grid-cols-1 gap-10">
         <div class="flex flex-col items-center">
             <p class="font-bold text-2xl text-center">
