@@ -3,9 +3,9 @@
     import Footer from "../../components/Footer.svelte";
 </script>
 
-<div class="min-h-screen w-full flex flex-col px-10 py-4 bg-white text-black">
+<div class="min-h-screen w-full flex flex-col px-10 py-4 bg-black text-white">
     <div class="container mx-auto py-4 flex items-center border-b border-black">
-        <h1>Egar's Chronicles</h1>
+        <h1>The Chronicles<span class="font-bold text-[#e1e000]">.</span></h1>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 py-4 gap-4 mt-4">
         <div class="container mx-auto flex flex-col">
